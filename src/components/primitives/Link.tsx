@@ -115,6 +115,7 @@ export const ROUTES = {
   dashboard: '/',
   markets: '/markets',
   staking: '/staking',
+  history: '/history',
   governance: '/governance',
   prerenderedProposal: (proposalId: number) => `/governance/proposal/${proposalId}`,
   dynamicRenderedProposal: (proposalId: number) => `/governance/proposal?proposalId=${proposalId}`,

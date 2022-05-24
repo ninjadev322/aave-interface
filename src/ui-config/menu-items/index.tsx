@@ -27,6 +27,10 @@ export const navigation: Navigation[] = [
     title: t`Markets`,
   },
   {
+    link: ROUTES.history,
+    title: t`Transaction History`,
+  },
+  {
     link: ROUTES.staking,
     title: t`Stake`,
     isVisible: () => process.env.NEXT_PUBLIC_ENABLE_STAKING === 'true',
